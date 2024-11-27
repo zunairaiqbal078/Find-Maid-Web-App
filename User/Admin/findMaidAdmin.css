@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nbar{
+    background-color: rgb(44, 40, 40);
+    color: white;
+}
+.nbar .r1 .cl1 h4 img:hover{
+    box-shadow: 0px 0px 15px 1px red;
+}
+.nbar .r1 .cl2 a{
+    text-decoration: none;
+    color: white;
+}
+.nbar .r1 .cl2 a:hover{
+    color: rgb(61, 160, 248);
+}
+.nbar .r1 .cl2 li{
+    list-style: none;
+    position: relative;
+}
+.nbar .r1 .cl2 .dropdown{
+    display: none;
+    margin-left: 40%;
+    position: absolute;
+    width: 125px;
+    padding: 10px;
+    background-color: rgb(44, 40, 40);
+}
+.nbar .r1 .cl2 li:hover .dropdown{
+    display: block;
+}
+.c1 .r1{
+    justify-content: center;
+}
+.c1 .r1 .cl .input{
+    width: 100%;
+    padding: 10px;
+    outline-color: rgb(61, 160, 248);
+}
+.c1 .r1 .cl .submit{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(61, 160, 248);
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+.c2 .r1{
+    min-height: 705px;
+    max-height: 705px;
+}
+.c2 .r1 .cl1{
+    background-color: rgb(44, 40, 40);
+}
+.c2 .r1 .cl1 ul{
+    list-style: none; 
+    text-decoration: none;
+}
+.c2 .r1 .cl1 ul li{
+    padding-top: 10px;
+}
+.c2 .r1 .cl1 ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.c2 .r1 .cl1 ul li a:hover{
+    background-color: rgb(61, 160, 248);
+    border-radius: 10px;
+}
+.c2 .r1 .cl2 .ab{
+    display: inline-block;
+    padding: 50px;
+    background-image: linear-gradient(to right,rgb(25, 180, 178),rgb(255, 200, 0));
+    transition: 2s;
+    border-radius: 20px;
+}
+.c2 .r1 .cl2 .rr1 .ccl1 .value{
+    color: black;
+    margin: 25px 60px 0px 60px;
+    padding: 5px;
+    background-image: linear-gradient(to right,rgb(255, 200, 0),rgb(25, 180, 178),rgb(25, 180, 178),rgb(255, 200, 0));
+    border-radius: 20px;
+}
+.c2 .r1 .cl3 .rr1 .ccl1 .card{
+    padding: auto;
+    border: 2px solid black;
+    background-color: rgb(44, 40, 40);
+    color: white;
+    margin: 85px 325px 85px 325px;
+}
+.c2 .r1 .cl3 .rr1 .ccl1 .card:hover{
+    box-shadow: 0px 0px 15px 5px red;
+    transition: 1s;
+}
+.c2 .r1 .cl4{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.c2 .r1 .cl4:hover{
+    box-shadow: 0px 0px 20px 10px rgb(58, 184, 243);
+    transition: 1.5s;
+}
+.c2 .r1 .cl4 .txt{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    width: 215px;
+    outline: none;
+    color: white;
+}
+.c2 .r1 .cl4 .submit{
+    border-radius: 30px;
+    background-color: rgb(58, 184, 243);
+    padding: 7px;
+    width: 225px;
+}
+.c2 .r1 .cl4 .formerror{
+    color: red;
+}
+.c2 .r1 .cl5, .c2 .r1 .cl6 .ccl1, .c2 .r1 .cl7 .ccl1{
+    /* overflow-y: auto; */
+    /* max-height: 50%; */
+    /* min-height: 50%; */
+}
+table th, table tbody td{
+    border: 1px solid black;
+}
+.c2 .r1 .cl5 table, .c2 .r1 .cl6 .ccl1 table, .c2 .r1 .cl7 .ccl1 table{
+    text-align: center;
+    width: 100%;
+}
+.c2 .r1 .cl5 table thead th, .c2 .r1 .cl6 .ccl1 table thead th, .c2 .r1 .cl7 .ccl1 table thead th{
+    background-color: rgb(125, 186, 240);
+    padding: 5px;
+}
+.c2 .r1 .cl5 td, .c2 .r1 .cl6 .ccl1 td, .c2 .r1 .cl7 .ccl1 td{
+    font-size: 13px;
+    padding: 10px;
+}
+.c2 .r1 .cl5 td:hover, .c2 .r1 .cl6 .ccl1 td:hover, .c2 .r1 .cl7 .ccl1 td:hover{
+    color: rgb(1, 136, 255);
+}
+.c2 .r1 .cl5 td a, .c2 .r1 .cl6 .ccl1 td a, .c2 .r1 .cl7 .ccl1 td a{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 7px;
+    border-radius: 5px;
+}
+.c2 .r1 .cl8 .rr1 .ccl1 .card{
+    padding: auto;
+    border: 2px solid black;
+    background-color: rgb(44, 40, 40);
+    color: white;
+    margin: 5px 325px 0px 325px;
+}
+.c2 .r1 .cl8 .rr1 .ccl1 .card a{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: 40%;
+}
+.c2 .r1 .cl8 .rr1 .ccl1 .card:hover, .c2 .r1 .cl9 .rr1 .ccl1 .card:hover{
+    box-shadow: 0px 0px 15px 5px red;
+    transition: 1s;
+}
+.c2 .r1 .cl10 form .r2 .cl .inp, .c12 form .r2 .cl .inp{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0px 25px;
+    font-size: large;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.c2 .r1 .cl10 form .r2 .btnAdd, .c12 form .r2 .btnAdd{
+    width: fit-content;
+    margin: 50px auto;
+    padding: 15px 40px;
+    border-radius: 20px;
+    font-size: large;
+    background-color: transparent;
+    border: 1px solid rgb(96, 192, 13);
+}
+.c2 .r1 .cl10 form .r2 .btnAdd:hover, .c12 form .r2 .btnAdd:hover{
+    background-color: rgb(246, 183, 37);
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+
+
+.bdr{
+    border: 2px solid orange;
+}
